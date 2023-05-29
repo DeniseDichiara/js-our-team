@@ -55,6 +55,8 @@ for(let i = 0; i < teamMembers.length; i++ ){
 
     console.log('---')
 
+    document.getElementById('my-team').innerHTML += teamMembers [i].nome + " " +   teamMembers [i].surname +  " " +  teamMembers [i].role +  " "  + teamMembers [i].profilePicture + "<br>";
+
 }
 
 
