@@ -45,5 +45,7 @@ const teamMembers = [
     }
 ]
     
+for(let chiave in teamMembers){
+console.log(chiave, teamMembers [chiave]);
 
-console.log(teamMembers);
+}
