@@ -3,7 +3,7 @@
 const teamMembers = [
 
     {
-        nome: 'Waune',
+        nome: 'Wayne',
         surname: 'Barnett',
         role: 'Founder & CEO',
         profilePicture: 'wayne-barnett-founder-ceo.jpg'
@@ -45,7 +45,16 @@ const teamMembers = [
     }
 ]
     
-for(let chiave in teamMembers){
-console.log(chiave, teamMembers [chiave]);
+for(let i = 0; i < teamMembers.length; i++ ){
+    const member = teamMembers [i];
+    console.log(member);
+
+    for(let chiave in member){
+        console.log(chiave, ':', member [chiave]);
+    }
+
+    console.log('---')
 
 }
+
+
