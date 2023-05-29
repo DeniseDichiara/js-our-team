@@ -44,7 +44,25 @@ const teamMembers = [
         profilePicture: 'barbara-ramos-graphic-designer.jpg'
     }
 ]
-    
+
+
+/*function tableCreate(row, col){
+    let body = document.body;
+    let tbl  = document.createElement('table');
+    tbl.style.width  = '500px';
+
+/* for(let i = 0; i < teamMembers.length; i++){
+        let tr = tbl.insertRow();
+        for(let j = 0; j < col; j++){
+                let td = tr.insertCell();
+                td.appendChild(document.createTextNode(`${i},${j}` ));
+            }     
+    }
+    body.appendChild(tbl);
+}
+
+tableCreate(6,3);*/
+
 for(let i = 0; i < teamMembers.length; i++ ){
     const member = teamMembers [i];
     console.log(member);
@@ -54,6 +72,7 @@ for(let i = 0; i < teamMembers.length; i++ ){
     }
 
     console.log('---')
+
 
     document.getElementById('my-team').innerHTML += teamMembers [i].nome + " " +   teamMembers [i].surname +  " " +  teamMembers [i].role +  " "  + teamMembers [i].profilePicture + "<br>";
 
