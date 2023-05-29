@@ -1,41 +1,43 @@
 
 
-const teamMembers = {
-    {
-        nome: 'Waune'
-        surname: 'Barnett'
-        role: 'Founder & CEO'
-    }
+const teamMembers = [
 
     {
-        nome: 'Angela'
-        surname: 'Caroll'
-        role: 'Chef Editor'
-    }
+        nome: 'Waune',
+        surname: 'Barnett',
+        role: 'Founder & CEO',
+    },
 
     {
-        nome: 'Walter'
-        surname: 'Gordon'
-        role: 'Office Manager'
-    }
+        nome: 'Angela',
+        surname: 'Caroll',
+        role: 'Chef Editor',
+    },
 
     {
-        nome:'Angela'
-        surname: 'Lopez'
-        role: 'Social Media'
-    }
+        nome: 'Walter',
+        surname: 'Gordon',
+        role: 'Office Manager',
+    },
 
     {
-        nome: 'Scott'
-        surname:'Estrada'
-        role:'Developer'
-    }
+        nome:'Angela',
+        surname: 'Lopez',
+        role: 'Social Media',
+    },
 
     {
-        nome:'Barbara'
-        surname:'Ramos'
+        nome: 'Scott',
+        surname:'Estrada',
+        role:'Developer',
+    },
+
+    {
+        nome:'Barbara',
+        surname:'Ramos',
         role:'Graphic Designer'
     }
-}
+]
+    
 
 console.log(teamMembers);
